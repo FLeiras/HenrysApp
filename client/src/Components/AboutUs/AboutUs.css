@@ -1,0 +1,23 @@
+/* .aboutUs__img__container {
+  height: 100vh;
+  background: url('../../Assets/Images/about-img.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+} */
+
+.aboutUs__row {
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.aboutUs__btn {
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.aboutUs__text {
+  text-align: left;
+  padding: 2rem;
+}

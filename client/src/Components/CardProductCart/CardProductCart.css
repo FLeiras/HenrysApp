@@ -1,0 +1,16 @@
+.cardProductCart__Container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.CardProductCart__img {
+  max-width: 160px;
+  border-color: var(--main-color-light);
+}
+
+.cardProductCart__price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--brand-color);
+}

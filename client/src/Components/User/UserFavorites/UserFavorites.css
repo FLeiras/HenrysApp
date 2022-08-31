@@ -1,0 +1,13 @@
+.userFav__container {
+  min-height: 90vh;
+}
+
+.emptyFav__text {
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: var(--main-color-light);
+  box-shadow: var(--bs-btn);
+  max-width: 400px;
+  padding: 2rem;
+  display: inline-block;
+}

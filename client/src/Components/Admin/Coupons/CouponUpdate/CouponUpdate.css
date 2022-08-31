@@ -1,0 +1,167 @@
+.couponUpdate__container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.codeLabel,
+.titleLabel,
+.discountLabel,
+.expirationDateLabel,
+.productOfCouponLabel {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.couponUpdate__form__inputs {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.couponUpdate__form__select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e');
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  appearance: none;
+  margin-bottom: 1rem;
+}
+
+.couponUpdate__form__inputs:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.couponUpdate__form__select:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.couponUpdate__CardCupponHome {
+  width: 26.5rem;
+  margin: 0 auto;
+}
+
+.statusWrong {
+  color: red;
+  font-size: smaller;
+  padding-top: 10px;
+}
+.statusOk {
+  display: none;
+}
+
+.couponUpdate__form__producstContainer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: var(--bc-inputs);
+  border-radius: 18px;
+  min-height: 100px;
+}
+
+.couponUpdate__form__producstContainer__itemsContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: row-reverse;
+  margin: 0.5rem;
+  color: #6c757d;
+  background-color: var(--main-color-light);
+  border-radius: 10px;
+  border: 1px solid #6c757d;
+  width: 14rem;
+  height: 3rem;
+  box-shadow: var(--bs-card);
+  -webkit-box-shadow: var(--bs-card);
+  -moz-box-shadow: var(--bs-card);
+}
+
+.couponUpdate__form__producstContainer__itemsContainer svg {
+  color: var(--main-color-light);
+  font-size: 16px;
+}
+.couponUpdate__form__producstContainer__itemsContainer p {
+  margin: auto;
+  font-size: 0.9rem;
+}
+
+.couponUpdate__form__producstContainer__closeButton {
+  margin: 5px;
+}
+
+.couponUpdate__form__producstContainer__closeButton:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.couponUpdate__submitButton {
+  margin: 1rem auto;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 769px) {
+  .couponUpdate__form__producstContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .couponUpdate__container {
+    margin: 0 auto;
+    width: 90vw;
+  }
+
+  /* .couponAdmin__CardCupponHome {
+    flex-direction: column;
+    width: 100%;
+  } */
+  .couponAdmin__CardCupponHome:first-child {
+    width: 10rem;
+  }
+  .couponUpdate__CardCupponHome {
+    width: 22.5rem;
+  }
+}

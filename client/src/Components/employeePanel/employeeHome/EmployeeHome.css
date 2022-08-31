@@ -1,0 +1,29 @@
+.employeeHome__container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.employee__cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.employee__cardBody {
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+  border-radius: 20px;
+}
+
+.employee__card {
+  border-radius: 20px;
+  display: block;
+  margin: 20px;
+}
+
+.employee__card__img {
+  width: 200px;
+}

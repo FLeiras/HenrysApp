@@ -1,0 +1,27 @@
+.loggedIn__icons {
+  color: var(--brand-color);
+}
+
+.loggedIn__Link {
+  color: var(--main-color-dark);
+
+  font-weight: bold;
+  padding-left: 1.5rem;
+  text-decoration: none;
+}
+
+.loggedIn__Link:hover {
+  color: var(--brand-color);
+}
+
+.loggedIn__img__profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.userLoggedIn__panelAdminBtn {
+  box-shadow: var(--bs-btn);
+  border-radius: 15px;
+}

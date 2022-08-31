@@ -1,0 +1,28 @@
+.productDetail__container {
+  margin-top: 5rem;
+  min-height: 60vh;
+}
+
+.productDetail__img {
+  max-width: 50%;
+}
+
+.productDetail__tittle {
+  color: var(--main-color-dark);
+  text-shadow: var(--bs-card);
+}
+
+.productDetail__text {
+  font-size: 1rem;
+}
+
+.productDetail__map__container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--main-color-light);
+  padding: 1rem;
+  border-radius: 20px;
+  max-width: 500px;
+  box-shadow: var(--bs-card);
+}

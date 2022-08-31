@@ -1,0 +1,36 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "standard",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:import/recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "import", "prettier"],
+    "rules": {
+      "indent": "off", /* sin indentacion */
+      "default-param-last": "off", /* param default function */
+      "no-unused-vars": "off", /* advertencia: variable sin usar */
+      "no-empty": "off", /* advertencia: bloque de codigo sin usar */
+      "prefer-const": "off", /* advertencia: preferir constante */
+
+      /* react */
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], /* soporte de extensiones */
+      "react/prop-types": "off", /* para que pueda recibir el parametro formato obj en el componente */
+      "import/no-unresolved": "off", /* para que los imports no haga falta especificar la extensión */
+      "n/no-callback-literal": "off" /* para que un cb pueda ser pasado como param y luego usado */
+    }
+  }
+  

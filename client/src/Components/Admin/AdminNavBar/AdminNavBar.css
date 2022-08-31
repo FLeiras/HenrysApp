@@ -1,0 +1,12 @@
+.adminNavBar__link {
+  color: var(--main-color-dark);
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.adminNavBar__link svg {
+  color: var(--brand-color);
+}
+.adminNavBar__logo {
+  max-width: 80px;
+}

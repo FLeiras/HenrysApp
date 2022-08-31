@@ -1,0 +1,30 @@
+.adminUsers__container {
+  min-height: 70vh;
+}
+.adminUser__td__btns button {
+  margin: 5px;
+}
+
+.adminUser__td__btns svg {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.adminUsers__pagination__btn {
+  margin: 5px;
+}
+
+.adminUsers__pagination__btn:hover {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.adminUsers__pagination__btn:focus {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.adminUsers__pagination__btn:active {
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}

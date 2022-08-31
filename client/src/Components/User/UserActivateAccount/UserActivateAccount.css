@@ -1,0 +1,16 @@
+.userActivate__container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.userActivate__subtittle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.userActivate__img {
+  max-width: 300px;
+}

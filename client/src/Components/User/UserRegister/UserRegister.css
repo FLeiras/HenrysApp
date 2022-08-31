@@ -1,0 +1,37 @@
+.userRegister__tittle {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.userRegister__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userRegister__img {
+  max-width: 50%;
+}
+
+.userRegister__divider {
+  color: rgb(170, 170, 170);
+  margin: 1.5rem;
+}
+.userRegister__container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.userRegister__errContainer {
+  height: 30px;
+}
+
+.userRegister__errContainer p {
+  text-align: left;
+  font-style: italic;
+  color: red;
+  font-size: smaller;
+  margin-bottom: 0px;
+}

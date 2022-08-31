@@ -1,0 +1,45 @@
+.menu__pagination__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn__round__effect,
+.btn__round__effect {
+  color: var(--main-color-light);
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-color: var(--brand-color);
+}
+
+.btn__round__effect:hover {
+  text-decoration: none;
+  background: var(--btn-hover);
+  color: #fff;
+}
+
+.currentPag,
+.currentPag:focus {
+  background-color: var(--main-color-light);
+  color: var(--brand-color);
+  border: 2px solid var(--brand-color);
+}
+
+.disablePag,
+.disablePag:focus {
+  text-decoration: none;
+  background: var(--btn-hover);
+  color: #57400f;
+  border: var(--btn-hover);
+  cursor: default;
+}
+
+.disablePag:hover {
+  cursor: default;
+}

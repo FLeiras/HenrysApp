@@ -1,0 +1,50 @@
+.userLogin__tittle {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.userLogin__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userLogin__img {
+  max-width: 50%;
+}
+.userLogin__imgLogo {
+  max-width: 50px;
+}
+.userLogin__divider {
+  color: rgb(170, 170, 170);
+  margin: 1.5rem;
+}
+.userLogin__container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.userLogin__forgotPass {
+  color: gray;
+  border: unset;
+  background: unset;
+  box-shadow: unset;
+}
+
+.userLogin__forgotPass:hover {
+  color: gray;
+  border-color: transparent;
+  background: unset;
+  box-shadow: unset;
+  text-decoration: underline;
+}
+
+.userLogin__forgotPass:focus {
+  color: gray;
+  border-color: transparent;
+  background: unset;
+  box-shadow: unset;
+  text-decoration: unset;
+}

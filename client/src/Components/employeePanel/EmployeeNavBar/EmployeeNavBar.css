@@ -1,0 +1,28 @@
+.employee__nav svg {
+  color: gray;
+}
+
+.navBar__employee {
+  background-color: rgb(206, 206, 206) !important;
+}
+
+.navEmployee__active {
+  color: var(--main-color-light);
+  font-weight: bolder;
+}
+
+.navBar__employee:hover {
+  color: var(--main-color-light) !important;
+}
+
+.navEmployee__active:hover {
+  color: var(--main-color-light) !important;
+}
+
+.navBar__employee:focus {
+  color: var(--main-color-light) !important;
+}
+
+.navEmployee__active:focus {
+  color: var(--main-color-light) !important;
+}

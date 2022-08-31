@@ -1,0 +1,48 @@
+.localesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.localesContainer__text {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 316px;
+  padding: 2rem 0 2rem 4rem;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: var(--main-color-light);
+}
+
+.localesContainer__map {
+  width: 49vw;
+  height: 316px;
+}
+
+@media (max-width: 1024px) {
+  .localesContainer__text {
+    width: 50vw;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .localesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+  }
+
+  .localesContainer__text {
+    width: 100vw;
+    padding-left: 2rem;
+  }
+
+  .localesContainer__map {
+    width: 100vw;
+  }
+}

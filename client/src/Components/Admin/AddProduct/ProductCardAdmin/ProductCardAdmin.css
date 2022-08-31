@@ -1,0 +1,27 @@
+.adminProductHome__card {
+  background-color: var(--main-color-light);
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: var(--bs-card);
+  height: 290px;
+}
+
+.adminProductHome__card__img {
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+}
+
+.adminProductHome__cardBody {
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+  border-radius: 15px;
+}
+
+.adminProductHome__cardTittle {
+  font-size: 0.9rem;
+}
+
+.productCard__buttons {
+  display: flex;
+  justify-content: space-evenly;
+}

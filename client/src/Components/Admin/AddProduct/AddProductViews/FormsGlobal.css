@@ -1,0 +1,55 @@
+.editOrCreate__form {
+  max-width: 450px;
+}
+
+.editOrCreate__img {
+  width: 150px;
+  border: 2px solid var(--main-color-light);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.editOrCreate__mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid var(--main-color-light);
+  border-top: none;
+  border-radius: 10px;
+  margin: 0px 0 15px 0;
+}
+
+.editOrCreate__productCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 210px;
+  height: 55px;
+  margin: 6px;
+  padding: 10px;
+
+  border: 1px solid #6c757d;
+  background-color: var(--main-color-light);
+  border-radius: 10px;
+  color: var(--main-color-dark);
+}
+
+.editOrCreate__productCard p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.editOrCreate__btnDelete {
+  border-radius: 5px;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+  color: var(--main-color-light);
+}
+
+.editOrCreate__btnDelete svg {
+  font-size: 14px;
+  vertical-align: unset;
+}

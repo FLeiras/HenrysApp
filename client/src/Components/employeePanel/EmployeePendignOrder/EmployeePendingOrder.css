@@ -1,0 +1,27 @@
+.employee__pending__container {
+  min-height: 70vh;
+}
+
+.employee__thead {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1rem;
+}
+
+.employee__ul {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.employee__li__span {
+  font-weight: bold;
+}
+
+.employee__cardList {
+  color: var(--brand-color);
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.giPartyPopper {
+  color: rgb(0, 182, 0);
+}

@@ -1,0 +1,22 @@
+.page_404 {
+  padding: 40px 0;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url('./../../Assets/Images/ErrorNoResults.gif');
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+.notResult__h3 {
+  color: var(--brand-color);
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}

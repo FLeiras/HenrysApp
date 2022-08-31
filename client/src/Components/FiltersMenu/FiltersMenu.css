@@ -1,0 +1,55 @@
+.filter__btn {
+  background-color: transparent;
+  color: var(--main-color-dark);
+  border-color: transparent;
+  border-radius: 50px;
+  box-shadow: none;
+}
+.filter__btn:focus {
+  background-color: var(--main-color-white);
+  color: var(--main-color-dark);
+}
+
+/* importante */
+.activeBtn, .activeBtn:focus {
+  background-color: var(--main-color-dark);
+  color: var(--main-color-white);
+}
+.activeBtn {
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+}
+.select__order {
+  border-radius: 20px;
+  height: 35px;
+  border: solid 2px var(--brand-color);
+}
+.order__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.createBurger__btn {
+  gap: 5px;
+  border-color: var(--brand-color);
+  background: var(--brand-color);
+  box-shadow: unset;
+  border-radius: var(--br-btn);
+  margin: 10px;
+}
+
+.btn-group,
+.btn-group-vertical {
+  flex-wrap: wrap;
+}
+.btn-group > .btn-group:not(:first-child) > .btn,
+.btn-group > .btn:nth-child(n + 3),
+.btn-group > :not(.btn-check) + .btn,
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 50px;
+  border: var(--bc-inputs);
+  margin: 5px;
+}

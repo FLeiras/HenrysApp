@@ -1,0 +1,17 @@
+.btn__round__effect {
+  color: var(--main-color-light);
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-color: var(--brand-color);
+}
+
+.btn__round__effect:hover {
+  text-decoration: none;
+  background: var(--btn-hover);
+  color: #fff;
+}

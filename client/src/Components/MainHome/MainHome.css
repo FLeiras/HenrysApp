@@ -1,0 +1,21 @@
+.carousel-caption {
+  bottom: 40vw;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 33vw;
+  }
+  .carousel-caption-last {
+    bottom: 28vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-caption {
+    bottom: 29vw;
+  }
+  .carousel-caption-last {
+    bottom: 20vw;
+  }
+}

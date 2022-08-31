@@ -1,0 +1,33 @@
+.btn__admin__effect {
+  color: var(--main-color-dark);
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-color: #6c757d;
+}
+
+.btn__admin__effect:focus {
+  color: var(--main-color-dark);
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-color: #6c757d;
+}
+.btn__admin__effect:hover {
+  text-decoration: none;
+  background: var(--btn-hover);
+  color: #fff;
+}
+
+.disablePagAdmin {
+  color: #6c757d;
+  background-color: gray;
+}

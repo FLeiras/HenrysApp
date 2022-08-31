@@ -1,0 +1,8 @@
+.userFavCard__container {
+  display: flex;
+  align-items: center;
+}
+
+.userFavImg {
+  max-width: 230px;
+}

@@ -1,0 +1,17 @@
+.productFilters__btnModal:active {
+  background-color: #6c757d;
+}
+.productFilters__btnModal:focus {
+  background-color: #6c757d;
+  border: unset;
+}
+.btn__modal__create {
+  width: 10rem;
+  margin: 0.5rem;
+}
+
+.btn__modal__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

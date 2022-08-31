@@ -1,0 +1,186 @@
+.addBurger__motherContainer {
+  text-align: center;
+}
+.addBurger__mainTitle {
+  margin: 3rem auto;
+}
+.addBurger__mainContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.addBurger__select {
+  width: 100%;
+  border: var(--bc-inputs);
+  border-radius: 18px;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  color: #999999;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.addBurger__select::-ms-expand {
+  display: none;
+}
+
+.addBurger__select::after {
+  content: '';
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.addBurger__image {
+  width: 500px;
+}
+
+.addBurger__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: var(--bc-inputs);
+  border-radius: 18px;
+  min-height: 200px;
+}
+
+.addBurger__ul__liContainer {
+  margin: 0.5rem;
+  background-color: var(--main-color-dark);
+  color: var(--text-color-light);
+  border-radius: 18px;
+  width: 16rem;
+  height: 4.5rem;
+  box-shadow: var(--bs-card);
+  -webkit-box-shadow: var(--bs-card);
+  -moz-box-shadow: var(--bs-card);
+}
+
+.addBurger__ul__li {
+  margin-bottom: 5px;
+  color: var(--main-color-dark);
+  border-radius: 18px 18px 0 0;
+  background-color: var(--brand-color);
+}
+
+.addBurger__ul__closeButton {
+  background-color: transparent;
+  float: right;
+  border: none;
+  position: relative;
+  color: var(--main-color-dark);
+}
+
+.addBurger__ul__closeButton:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.addBurger__ul__plusAndMinus {
+  border-radius: 19px;
+  background-color: var(--brand-color);
+  margin-top: 2px;
+  padding: 2px;
+  height: 1.7rem;
+  width: 1.7rem;
+  border: none;
+}
+
+.addBurger__ul__plusAndMinus:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.addBurger__bottom {
+  margin: 4rem auto;
+}
+
+.addBurger__bottom__span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.addBurger__ul__cantidad {
+  margin: 0.5rem;
+}
+.swal2-styled.swal2-confirm.confirmBtnSwal {
+  gap: 5px;
+  border-color: var(--brand-color);
+  background: var(--brand-color);
+  box-shadow: var(--bs-btn);
+  border-radius: var(--br-btn);
+}
+.swal2-styled.swal2-confirm.confirmBtnSwal:focus {
+  box-shadow: var(--bs-btn);
+}
+
+.addBurger__selectContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.addBurger__option {
+  text-align: left;
+}
+.burgerBase__select,
+.ingredients__select {
+  width: 20rem;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.addBurger__descriptionText {
+  font-size: smaller;
+  font-style: italic;
+  color: gray;
+  padding: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .addBurger__mainContainer {
+    flex-direction: column-reverse;
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+
+  .addBurger__image {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .addBurger__select {
+    width: 95%;
+  }
+
+  .addBurger__ul {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .addBurger__selectContainer {
+    flex-wrap: unset;
+  }
+}
